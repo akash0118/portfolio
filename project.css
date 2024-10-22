@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+body {
+    background:#1f242d;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header h1 {
+    position: fixed;
+    top: 18px;
+    left: 90px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px white;
+    z-index: 1;
+}
+
+header h1 span{
+    color: #3ef;
+    text-shadow:1px 1px #3ef;
+}
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: #1f242d;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 60%;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav a:hover,
+nav a.active {
+    color:#3ef;
+}
+
+
+.project h1 {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    color: aliceblue;
+    z-index: -1;
+}
+
+.project h1 span{
+    color: #3ef;
+}
+
+.food {
+    position: relative;
+    top: 50px;
+
+
+}
+
+
+
+.food h3 {
+    margin-top: 70px;
+    margin-left: 80px;
+    font-size: 30px;
+    color: #3ef;
+    width: 600px;
+}
+
+.food h5 {
+    margin-left: 90px;
+    font-size: 20px;
+    width: 500px;
+    color: white;
+}
+
+.showroom {
+    margin-top: 80px;
+}
+
+
+.showroom h3 {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 30px;
+    color: #3ef;
+    width: 600px;
+}
+
+.showroom h5 {
+    margin-left: 90px;
+    font-size: 20px;
+    width: 500px;
+    color: white;
+}
+
+.chatbot h3 {
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 30px;
+    color: #3ef;
+    width: 600px;
+}
+
+.chatbot h5 {
+    margin-left: 90px;
+    font-size: 20px;
+    width: 500px;
+    color: white;
+}
+
+.properties h3 {
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 30px;
+    color: #3ef;
+    width: 600px;
+}
+
+.properties h5 {
+    margin-left: 90px;
+    font-size: 20px;
+    width: 500px;
+    color: white;
+}
+
+.project,
+.showroom,
+.food,
+.properties,
+.chatbot {
+    z-index: -1;
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    body {
+        background: #1f242d;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding-left: 55%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+    body {
+        background: #1f242d;
+    }
+
+    header h1{
+        position: fixed;
+        top: 18px;
+        left: 70px;
+        font-size: 25px;
+        color: white;
+        text-shadow:1px 1px white;
+        z-index: 1;
+    }
+
+    header h1 span{
+        color: #3ef;
+        text-shadow:1px 1px #3ef;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding-left: 45%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .project h1 {
+        position: relative;
+        top: 80px;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .food {
+        position: relative;
+        top: 50px;
+
+
+    }
+
+
+
+    .food h3 {
+        margin-top: 70px;
+        margin-left: 60px;
+        font-size: 25px;
+        color: #3ef;
+        width: 600px;
+    }
+
+    .food h5 {
+        margin-left: 70px;
+        font-size: 20px;
+        width: 500px;
+        color: white;
+    }
+
+    .showroom {
+        margin-top: 80px;
+    }
+
+
+    .showroom h3 {
+        margin-top: 20px;
+        margin-left: 60px;
+        font-size: 25px;
+        color: #3ef;
+        width: 600px;
+    }
+
+    .showroom h5 {
+        margin-left: 70px;
+        font-size: 20px;
+        width: 500px;
+        color: white;
+    }
+
+    .chatbot h3 {
+        margin-top: 30px;
+        margin-left: 60px;
+        font-size: 25px;
+        color: #3ef;
+        width: 600px;
+    }
+
+    .chatbot h5 {
+        margin-left: 70px;
+        font-size: 20px;
+        width: 500px;
+        color: white;
+    }
+
+    .properties h3 {
+        margin-top: 30px;
+        margin-left: 60px;
+        font-size: 25px;
+        color: #3ef;
+        width: 600px;
+
+    }
+
+    .properties h5 {
+        margin-left: 70px;
+        font-size: 20px;
+        width: 500px;
+        color: white;
+    }
+
+    .project,
+    .showroom,
+    .food,
+    .properties,
+    .chatbot {
+        z-index: -1;
+    }
+}
+
+
+
+@media screen and (max-width:565px) {
+    body {
+        background:#1f242d;
+    }
+
+    header h1{
+        position: fixed;
+        top: 18px;
+        left: 40px;
+        font-size: 25px;
+        color: white;
+        text-shadow:1px 1px white;
+        z-index: 1;
+    }
+
+    header h1 span{
+        color: #3ef;
+        text-shadow:1px 1px #3ef;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding-left: 40%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .project h1 {
+        position: relative;
+        top: 80px;
+        left: 40px;
+        text-align: center;
+
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .food {
+        position: relative;
+        top: 50px;
+
+
+    }
+
+
+
+    .food h3 {
+        margin-top: 70px;
+        margin-left: 60px;
+        font-size: 30px;
+        color: #3ef;
+        width: 600px;
+    }
+
+    .food h5 {
+        margin-left: 70px;
+        font-size: 20px;
+        width: 500px;
+        color: white;
+    }
+
+    .showroom {
+        margin-top: 80px;
+    }
+
+
+    .showroom h3 {
+        margin-top: 20px;
+        margin-left: 60px;
+        font-size: 30px;
+        color: #3ef;
+        width: 600px;
+    }
+
+    .showroom h5 {
+        margin-left: 70px;
+        font-size: 20px;
+        width: 500px;
+        color: white;
+    }
+
+    .chatbot h3 {
+        margin-top: 30px;
+        margin-left: 60px;
+        font-size: 30px;
+        color: #3ef;
+        width: 600px;
+    }
+
+    .chatbot h5 {
+        margin-left: 70px;
+        font-size: 20px;
+        width: 500px;
+        color: white;
+    }
+
+    .properties h3 {
+        margin-top: 30px;
+        margin-left: 60px;
+        font-size: 30px;
+        color: #3ef;
+        width: 600px;
+
+    }
+
+    .properties h5 {
+        margin-left: 70px;
+        font-size: 20px;
+        width: 500px;
+        color: white;
+    }
+
+    .project,.showroom,.food,.properties,.chatbot {
+        z-index: -1;
+    }
+}
+
+
+
+@media screen and (max-width:460px) {
+
+    header h1 {
+        position: fixed;
+        top: 18px;
+        left: 30px;
+        font-size: 25px;
+        color: white;
+        text-shadow: 1px 1px white;
+        z-index: 1;
+    }
+
+
+    header h1 span{
+        color: #3ef;
+        text-shadow:1px 1px #3ef;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding-left: 35%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+
+
+    .project h1 {
+        position: relative;
+        top: 80px;
+        left: 90px;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+
+
+    .food h5 {
+        margin-left: 70px;
+        font-size: 22px;
+        width: 500px;
+    }
+
+    .showroom h5 {
+        margin-left: 70px;
+        font-size: 22px;
+        width: 500px;
+    }
+
+    .chatbot h5 {
+        margin-left: 70px;
+        font-size: 22px;
+        width: 500px;
+    }
+
+    .properties h5 {
+        margin-left: 70px;
+        font-size: 22px;
+        width: 500px;
+    
+    }
+
+}
